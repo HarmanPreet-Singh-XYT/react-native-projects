@@ -1,79 +1,68 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Learning Projects
 
-# Getting Started
+This repository contains several mini-projects I built while learning React Native. Each project focuses on different aspects of React Native development, from basic components to state management and animations.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Projects Included
 
-## Step 1: Start the Metro Server
+1. **Rock Paper Scissors**
+   - A simple game where the user plays Rock Paper Scissors against the computer.
+   - Features: Randomized computer choices, game logic, and user interface.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+2. **Random Images**
+   - An app that fetches and displays random images.
+   - Features: API integration, image display, and loading states.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+3. **Testimonials**
+   - A testimonial carousel showcasing user reviews.
+   - Features: Carousel animations, user feedback display.
 
-```bash
-# using npm
-npm start
+4. **Password Generator**
+   - Generates random passwords based on user-defined criteria.
+   - Features: Customizable password length and character types, clipboard integration.
 
-# OR using Yarn
-yarn start
-```
+5. **Music Player**
+   - A basic music player app.
+   - Features: Play, pause, and skip tracks, as well as track progress display.
 
-## Step 2: Start your Application
+6. **Page Showcase**
+   - A simple app showcasing multiple pages and navigation.
+   - Features: Navigation between pages, UI components demonstration.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+7. **Tic Tac Toe**
+   - A classic Tic Tac Toe game.
+   - Features: Two-player mode, game state management, and win/tie detection.
 
-### For Android
+## Getting Started
 
-```bash
-# using npm
-npm run android
+To get a local copy up and running follow these simple steps.
 
-# OR using Yarn
-yarn android
-```
+### Prerequisites
 
-### For iOS
+- Node.js
+- React Native CLI
+- Android Studio or Xcode (for Android/iOS development)
 
-```bash
-# using npm
-npm run ios
+### Installation
 
-# OR using Yarn
-yarn ios
-```
+1. Clone the repo
+   ```sh
+   git clone https://github.com/HarmanPreet-Singh-XYT/react-native-projects.git
+2. Install NPM Packages
+   ```sh
+   npm install
+3. Run the app
+   ```sh
+   npx react-native run-android # for Android
+   npx react-native run-ios     # for iOS
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Contributing
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+**We welcome contributions! Please fork the repository and submit a pull request.**
 
-## Step 3: Modifying your App
+## License
 
-Now that you have successfully run the app, let's modify it.
+**This project is licensed under the MIT License. See the LICENSE file for more details.**
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Contact
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+**For any questions or feedback, please contact us at harmanpreetsingh@programmer.net**
