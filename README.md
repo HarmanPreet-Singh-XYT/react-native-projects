@@ -34,6 +34,10 @@ This repository contains several mini-projects I built while learning React Nati
    - A classic Tic Tac Toe game.
    - Features: Two-player mode, game state management, and win/tie detection.
 
+8. **Currency Converter**
+   - A classic Currency Converter.
+   - Features: Can convert rupee to serveral other countries currency.
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
