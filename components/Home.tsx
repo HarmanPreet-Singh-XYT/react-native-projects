@@ -12,6 +12,7 @@ const Home = ({navigation}:{navigation:NativeStackNavigationProp<any,any>}) => {
       <TouchableOpacity onPress={() => navigation.navigate('Music Player')} style={styles.btnContainer}><Text style={styles.btns}>Music Player</Text></TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Page Showcase')} style={styles.btnContainer}><Text style={styles.btns}>Page Showcase</Text></TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Tic Tac Toe')} style={styles.btnContainer}><Text style={styles.btns}>Tic Tac Toe</Text></TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('Currency Converter')} style={styles.btnContainer}><Text style={styles.btns}>Currency Converter</Text></TouchableOpacity>
     </ScrollView>
     </View>
   )

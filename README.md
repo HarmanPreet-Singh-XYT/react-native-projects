@@ -2,6 +2,8 @@
 
 This repository contains several mini-projects I built while learning React Native. Each project focuses on different aspects of React Native development, from basic components to state management and animations.
 
+![UI](/demo-image/UI.png)
+
 ## Projects Included
 
 1. **Rock Paper Scissors**
